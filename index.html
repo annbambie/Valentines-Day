@@ -12,7 +12,11 @@
         <p>Click the button for a surprise!</p>
         <button id="loveButton">Click Me</button>
         <div id="message"></div>
-    </div>
+    </div><audio id="bgMusic" autoplay loop>
+    <source src="https://www.bensound.com/bensound-music/bensound-romantic.mp3" type="audio/mp3">
+</audio>
+<button onclick="document.getElementById('bgMusic').play()">🎵 Play Music</button>
+
     <script src="script.js"></script>
 </body>
 </html>
