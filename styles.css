@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color: pink;
+    color: white;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+#message {
+    font-size: 24px;
+    margin-top: 20px;
+}
